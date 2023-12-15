@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59fcdd00.css",
+    "main.js": "/static/js/main.12a7c973.js",
+    "static/media/industry.webp": "/static/media/industry.7b13522d10cf3fd6b554.webp",
+    "static/media/about-hero.webp": "/static/media/about-hero.3ee77b82c06118930708.webp",
+    "static/media/blog-one.webp": "/static/media/blog-one.b2638ee88308f42c72c9.webp",
+    "static/media/service.webp": "/static/media/service.fc76112ea5060c15869a.webp",
+    "static/media/contact-img.webp": "/static/media/contact-img.e14dcb074cdc0117a6ca.webp",
+    "static/media/hero-left.webp": "/static/media/hero-left.df2da8a93385e87ccbba.webp",
+    "static/media/service-bg.webp": "/static/media/service-bg.610f0b4d3aadd251748f.webp",
+    "static/media/service-front.webp": "/static/media/service-front.fc6d8a06252f017a14a8.webp",
+    "static/media/services-hero.webp": "/static/media/services-hero.a6b024a599a7e6d27e27.webp",
+    "static/media/whyChooseUs.webp": "/static/media/whyChooseUs.485473ad81e7548a3612.webp",
+    "static/media/industries-hero.webp": "/static/media/industries-hero.876150bbd20d42d86589.webp",
+    "static/media/blog-hero.webp": "/static/media/blog-hero.71302b9de0f1846ebaa6.webp",
+    "static/media/logo.webp": "/static/media/logo.72ad5dd86fc7872a85f7.webp",
+    "index.html": "/index.html",
+    "main.59fcdd00.css.map": "/static/css/main.59fcdd00.css.map",
+    "main.12a7c973.js.map": "/static/js/main.12a7c973.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59fcdd00.css",
+    "static/js/main.12a7c973.js"
+  ]
+}
