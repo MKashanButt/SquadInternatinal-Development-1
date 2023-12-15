@@ -1,0 +1,71 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.hero .left,
+.hero .right {
+    width: 48%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .right {
+    align-items: center;
+}
+
+.hero .left span {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.hero .right img {
+    width: 70%;
+    height: 50%;
+    border-radius: 25px;
+}
+
+.whyChooseUs {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.whyChooseUs .stage {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.whyChooseUs .stage p {
+    text-align: center;
+}
+
+.whyChooseUs .stage .item {
+    width: 33%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    border-top: 4px solid var(--black);
+}
+
+.whyChooseUs .stage .item p {
+    text-align: left;
+    word-break: break-all;
+}
+
+.whyChooseUs .stage .item i {
+    font-size: 40px;
+    color: var(--black);
+}

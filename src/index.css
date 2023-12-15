@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import "./shared/css/animation.css";
+@import "./shared/css/shapes.css";
+
+:root {
+  --grey: #D9DADF;
+  --black: #1E1E1E;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p,
+li,
+button {
+  font-size: 16px;
+}
+
+body {
+  background: var(--grey);
+}
+
+main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.display-none {
+  display: none;
+}
+
+@media (min-width: 1008px) and (max-width: 1300px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  p,
+  li,
+  button {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+
+  h4 {
+    font-size: 8px;
+  }
+
+  p,
+  li,
+  button {
+    font-size: 10px;
+  }
 }

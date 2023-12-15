@@ -1,0 +1,86 @@
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1);
+    z-index: 110;
+    top: 0;
+    background: var(--grey);
+}
+
+.logo,
+.action {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.action button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: var(--black);
+    color: #ffff;
+    border-radius: 4px;
+}
+
+.action button:nth-of-type(2) {
+    display: none;
+}
+
+.navUnderline {
+    width: 100%;
+    border: 2px solid var(--grey);
+}
+
+header nav>ul li:hover .navUnderline {
+    border: 2px solid rgba(0, 0, 0, 10);
+    animation: underlineAnimation 0.4s linear;
+}
+
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .logo img {
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .logo img {
+        width: 80%;
+    }
+
+    .action button:nth-of-type(2) {
+        display: block;
+    }
+
+    .action button:nth-of-type(1) {
+        display: none;
+    }
+
+    header nav>ul {
+        gap: 30px;
+    }
+}

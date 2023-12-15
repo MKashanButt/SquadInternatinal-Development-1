@@ -1,0 +1,180 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.hero .left,
+.hero .right {
+    width: 48%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .left span {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.hero .right {
+    align-items: center;
+}
+
+.hero .right img {
+    width: 70%;
+    height: 50%;
+    border-radius: 25px;
+}
+
+.blogs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blogs form {
+    width: 40%;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.blogs form input {
+    padding: 8px 20px;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-right: 0;
+    font-size: 18px;
+    flex: 5;
+}
+
+.blogs form button {
+    border-radius: 0 25px 25px 0;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    border-left: none;
+    opacity: 100%;
+    flex: 1;
+}
+
+.stage {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    gap: 21px;
+}
+
+.stage .item {
+    width: 28%;
+    padding: 2%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.stage .item:hover {
+    color: white;
+    background: var(--black);
+}
+
+.stage .item:hover button {
+    color: var(--black);
+}
+
+.stage .item img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.stage .item .content {
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+    gap: 5px;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.stage .item button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background: white;
+    padding: 10px 0;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: all 0.2s ease;
+}
+
+.stage .item button:hover {
+    border: 2px solid white;
+    background-color: inherit;
+    color: white;
+}
+
+.pagination {
+    width: 30%;
+    margin: 80px auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.pagination button {
+    all: unset;
+    font-size: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pagination button:hover {
+    background: var(--black);
+    color: white;
+}
+
+.pagination>button {
+    flex: 1;
+    font-size: 35px;
+}
+
+.pagination>button i {
+    border-radius: 50px;
+}
+
+.pagination .page {
+    display: flex;
+    flex: 4;
+    gap: 10px;
+}
+
+.pagination .page button {
+    flex: 1;
+}
