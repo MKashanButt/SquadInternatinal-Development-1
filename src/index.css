@@ -86,7 +86,7 @@ main {
 
 @media (min-width: 641px) and (max-width: 1007px) {
   h1 {
-    font-size: 25px;
+    font-size: 30px !important;
   }
 
   h2 {
@@ -94,16 +94,16 @@ main {
   }
 
   h3 {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   h4 {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   p,
   li,
   button {
-    font-size: 10px;
+    font-size: 12px;
   }
 }

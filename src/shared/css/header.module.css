@@ -44,6 +44,7 @@ header nav>ul {
     background-color: var(--black);
     color: #ffff;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .action button:nth-of-type(2) {

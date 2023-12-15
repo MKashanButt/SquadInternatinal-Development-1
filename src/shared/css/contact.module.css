@@ -73,3 +73,18 @@
     border-radius: 5px;
     margin: auto;
 }
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .contact .content {
+        flex-direction: column;
+    }
+
+    .contact .content form {
+        width: 50%;
+        margin: auto;
+    }
+
+    .contact .content img {
+        display: none;
+    }
+}

@@ -279,9 +279,66 @@
     .hero,
     .services {
         flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .hero {
+        padding-top: 90px;
+    }
+
+    .hero .left,
+    .hero .right {
+        width: 50%;
+        margin: auto;
+        z-index: 100;
+    }
+
+    .hero .left {
+        margin: 50px auto;
+    }
+
+    .services .left,
+    .services .right {
+        width: 50%;
+        margin: 50px auto;
+    }
+
+    .services .left img {
+        margin: 0;
+    }
+
+    .industries hr:nth-of-type(2) {
+        bottom: -20%;
     }
 
     .blogs {
         height: auto;
     }
+
+    .blogs .stage,
+    .blogs .item:nth-of-type(2),
+    .blogs .item:nth-of-type(3) {
+        display: block;
+    }
+
+    .blogs .item:nth-of-type(2) .content,
+    .blogs .item:nth-of-type(3) .content {
+        text-align: center !important;
+    }
+
+    .blogs .item:nth-of-type(2),
+    .blogs .item:nth-of-type(3) {
+        align-items: center;
+    }
+
+    .blogs .stage .item {
+        margin: 20px 0;
+        align-items: center;
+        z-index: 100 !important;
+    }
+
+    .blogs .stage .item img {
+        width: 50%;
+    }
+
 }

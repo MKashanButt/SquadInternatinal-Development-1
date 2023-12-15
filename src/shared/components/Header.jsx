@@ -3,14 +3,19 @@ import logo from "../../assets/images/logo.webp";
 import headerStyles from "../css/header.module.css";
 
 const Header = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
+  var setVariable = () => {
+    if (window.innerWidth > 1001) {
+      setActive(false);
+    }
+  };
   return (
     <header>
       <div class={headerStyles.logo} data-aos="fade-up" data-aos-duration="500">
         <img src={logo} alt="" />
       </div>
       <nav data-aos="fade-up" data-aos-duration="1000">
-        <ul className={active ? "display-none" : ""}>
+        <ul className={!active && "display-none"}>
           <li>
             <a href="/">Home</a>
             <hr class={headerStyles.navUnderline} />
