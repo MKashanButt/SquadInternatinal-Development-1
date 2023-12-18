@@ -9,8 +9,8 @@ import Home from "./Pages/Home/Index";
 import Services from "./Pages/Services/Index";
 import Industries from "./Pages/Industries/Index";
 import Blogs from "./Pages/Blogs/Index";
-import AboutUs from "./Pages/About Us/Index";
-import ContactUs from "./Pages/Contact Us/Index";
+import AboutUs from "./Pages/AboutUs/Index";
+import ContactUs from "./Pages/ContactUs/Index";
 import Footer from "./shared/components/Footer";
 
 function App() {

@@ -6,7 +6,7 @@ header {
     box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1);
     z-index: 110;
     top: 0;
-    background: var(--grey);
+    background: white;
 }
 
 .logo,
@@ -53,7 +53,7 @@ header nav>ul {
 
 .navUnderline {
     width: 100%;
-    border: 2px solid var(--grey);
+    border: 2px solid white;
 }
 
 header nav>ul li:hover .navUnderline {

@@ -1,5 +1,6 @@
 {
   "name": "squad-international",
+  "homepage": "https://squadinternational.net/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
