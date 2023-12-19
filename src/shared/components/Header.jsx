@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <header>
       <div class={headerStyles.logo} data-aos="fade-up" data-aos-duration="500">
-        <img src={logo} alt="" />
+        <a href="/">
+          <img src={logo} alt="" />
+        </a>
       </div>
       <nav data-aos="fade-up" data-aos-duration="1000">
         <ul className={active && "display-none"}>
@@ -17,6 +19,15 @@ const Header = () => {
           </li>
           <li>
             <a href="/services">Services</a>
+            <div className="submenu">
+              <ul>
+                <li>Outbound Calls</li>
+                <li>Customer Service</li>
+                <li>Chat Support</li>
+                <li>Email Outreach</li>
+                <li>Email Support</li>
+              </ul>
+            </div>
             <hr class={headerStyles.navUnderline} />
           </li>
           <li>
@@ -42,7 +53,9 @@ const Header = () => {
         data-aos="fade-up"
         data-aos-duration="1500"
       >
-        <button>Get in Touch</button>
+        <button>
+          <a href="/contact-us">Get in Touch</a>
+        </button>
         <button onClick={() => setActive(!active)}>
           <i class="bx bx-menu"></i>
         </button>
