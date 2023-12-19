@@ -178,3 +178,50 @@
 .pagination .page button {
     flex: 1;
 }
+
+@media (min-width: 1300px) and (max-width:1350px) {}
+
+@media (min-width: 1008px) and (max-width: 1300px) {}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .hero {
+        flex-direction: column;
+        padding-top: 90px;
+    }
+
+    .hero .left,
+    .hero .right {
+        width: 50%;
+        margin: auto;
+    }
+
+    .hero .right img {
+        height: 200px;
+    }
+
+    .blogs {
+        margin-top: 90px;
+    }
+
+    .blogs input {
+        font-size: 8px;
+    }
+
+    .stage .item {
+        width: 40%;
+        margin: auto;
+    }
+
+    .stage .item p,
+    .stage .item button {
+        font-size: 10px;
+    }
+
+    .blogs button {
+        font-size: 14px;
+    }
+
+    .blogs button i {
+        font-size: 18px;
+    }
+}
