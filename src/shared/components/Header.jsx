@@ -4,11 +4,6 @@ import headerStyles from "../css/header.module.css";
 
 const Header = () => {
   const [active, setActive] = useState(true);
-  var setVariable = () => {
-    if (window.innerWidth > 1001) {
-      setActive(false);
-    }
-  };
   return (
     <header>
       <div class={headerStyles.logo} data-aos="fade-up" data-aos-duration="500">

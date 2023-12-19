@@ -130,3 +130,50 @@
     gap: 10px;
     justify-content: center;
 }
+
+@media (min-width: 1300px) and (max-width:1350px) {}
+
+@media (min-width: 1008px) and (max-width: 1300px) {}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .hero {
+        height: auto;
+        flex-direction: column;
+        padding-top: 90px;
+    }
+
+    .hero .left,
+    .hero .right {
+        width: 50%;
+        margin: auto;
+    }
+
+    .hero .right img {
+        width: 50%;
+        height: 200px;
+    }
+
+    .randomSection {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .randomSection .right,
+    .randomSection .left {
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .randomSection .left .imgBorderTop {
+        width: 100px;
+        height: 100px;
+        top: 0;
+    }
+
+    .randomSection .left .imgBorderBottom {
+        width: 100px;
+        height: 100px;
+        bottom: -20px;
+        left: 15%;
+    }
+}
