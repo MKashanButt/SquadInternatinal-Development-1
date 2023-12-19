@@ -10,7 +10,7 @@ const Header = () => {
         <img src={logo} alt="" />
       </div>
       <nav data-aos="fade-up" data-aos-duration="1000">
-        <ul className={!active && "display-none"}>
+        <ul className={active && "display-none"}>
           <li>
             <a href="/">Home</a>
             <hr class={headerStyles.navUnderline} />
