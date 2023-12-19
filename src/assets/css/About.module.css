@@ -69,3 +69,34 @@
     font-size: 40px;
     color: var(--black);
 }
+
+@media (min-width: 1300px) and (max-width:1350px) {}
+
+@media (min-width: 1008px) and (max-width: 1300px) {}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .hero {
+        height: auto;
+        padding-top: 90px;
+        flex-direction: column;
+    }
+
+    .hero .right,
+    .hero .left {
+        width: 50%;
+        margin: auto;
+    }
+
+    .whyChooseUs {
+        margin: 20px 0;
+        height: auto;
+    }
+
+    .whyChooseUs .stage {
+        margin: 40px 0;
+    }
+
+    .whyChooseUs>p {
+        padding: 0 80px;
+    }
+}
