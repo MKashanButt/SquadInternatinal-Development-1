@@ -194,6 +194,13 @@
     z-index: 90;
 }
 
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .hero .right .circle {
+        width: 350px;
+        height: 350px;
+    }
+}
+
 @media (min-width: 641px) and (max-width: 1007px) {
 
     .hero,
