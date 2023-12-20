@@ -61,6 +61,37 @@ header nav>ul li:hover .navUnderline {
     animation: underlineAnimation 0.4s linear;
 }
 
+.submenu {
+    width: 150px;
+    height: auto;
+    padding: 1%;
+    top: 70%;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0;
+    position: absolute;
+    background: white;
+    display: none;
+}
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submenu ul li {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.submenu ul li:hover {
+    font-weight: bolder;
+}
+
+.submenu ul li:hover .submenu {
+    display: block;
+}
+
 @media (min-width: 1008px) and (max-width: 1300px) {
     .logo img {
         width: 60%;

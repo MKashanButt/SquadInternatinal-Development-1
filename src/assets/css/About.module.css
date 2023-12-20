@@ -70,9 +70,12 @@
     color: var(--black);
 }
 
-@media (min-width: 1300px) and (max-width:1350px) {}
 
-@media (min-width: 1008px) and (max-width: 1300px) {}
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .whyChooseUs>p {
+        padding: 0 90px;
+    }
+}
 
 @media (min-width: 641px) and (max-width: 1007px) {
     .hero {

@@ -19,7 +19,7 @@ const Header = () => {
           </li>
           <li>
             <a href="/services">Services</a>
-            <div className="submenu">
+            <div className={headerStyles.submenu}>
               <ul>
                 <li>Outbound Calls</li>
                 <li>Customer Service</li>
