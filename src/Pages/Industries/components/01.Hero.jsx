@@ -15,10 +15,11 @@ const Hero = () => {
           <span>Innovative</span> Solutions
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quam
-          harum deleniti quibusdam fugiat. Doloribus quae eum dolorum molestias
-          facilis impedit nam voluptatum id, quas quam? Atque a molestiae
-          exercitationem nulla obcaecati.
+          Embrace the future with our groundbreaking approach to innovation. We
+          use cutting-edge technology and forward-thinking techniques to
+          redefine industry norms and push enterprises to unparalleled success.
+          Join us in transforming how industries operate and prosper in an
+          ever-changing environment.
         </p>
       </div>
       <div className={sectionStyles.right}>
