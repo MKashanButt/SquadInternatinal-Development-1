@@ -14,10 +14,11 @@ const Hero = () => {
           <h3>Your Marketing</h3>
           <h1 class={heroStyles.uppercase}>Companion</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-            aliquam quo nam error, pariatur sunt laudantium excepturi
-            necessitatibus ad quibusdam repudiandae accusamus! Dolorem et beatae
-            quo natus earum sint reprehenderit provident assumenda?
+            Improve your marketing strategy with our professional B2B Business
+            Process Outsourcing (BPO) services. From data management to lead
+            creation, we provide customized solutions to help you maximize your
+            marketing efforts. Trust us to help you achieve unparalleled success
+            and development in today's competitive business world.
           </p>
         </div>
       </section>

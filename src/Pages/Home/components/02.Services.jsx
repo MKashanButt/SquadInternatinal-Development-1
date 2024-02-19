@@ -26,11 +26,13 @@ const Services = () => {
           Services
         </h4>
         <h1 data-aos="fade-left" data-aos-duration="1000" class="uppercase">
-          Combining Intelligence <br /> & Expertise
+          Maximizing your business potential
         </h1>
         <p data-aos="fade-left" data-aos-duration="1000">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt
-          nulla vel, vitae tenetur itaque molestiae.
+          We combine information and skills to provide superior B2B Business
+          Process Outsourcing (BPO) services. With an emphasis on efficiency and
+          innovation, our solutions provide unrivaled support for your
+          operations.
         </p>
         <ul data-aos="fade-left" data-aos-duration="1000">
           <li>Outbound Calls</li>

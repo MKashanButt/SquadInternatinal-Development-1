@@ -79,10 +79,10 @@ const Footer = () => {
           <div class={footerStyles.right}>
             <h3>About Us</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-              suscipit, necessitatibus animi minima pariatur non vitae sed
-              molestiae, incidunt earum a ad! Possimus magnam soluta sit minus,
-              tempore nostrum illum corporis accusantium.
+              We are committed to quality and seek to surpass expectations in
+              all of our endeavors. We're here to help you succeed by focusing
+              on innovation and client happiness. Join us on this path of
+              unprecedented growth and wealth.
             </p>
             <p>
               <i class="bx bxl-facebook-circle"></i>
