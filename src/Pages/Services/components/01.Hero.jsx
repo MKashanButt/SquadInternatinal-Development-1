@@ -15,10 +15,11 @@ const Hero = () => {
           <span>Dynamic</span> World
         </h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          repudiandae consectetur sint tenetur obcaecati. Eligendi error et
-          voluptate ipsa deserunt, amet sint debitis velit similique
-          repudiandae. Cum expedita vitae dignissimos delectus excepturi.
+          Explore our cutting-edge services, designed to satisfy the needs of a
+          continuously changing landscape. From pioneering technology to
+          forward-thinking tactics, we provide creative solutions to help you
+          navigate today's changing environment with confidence. Learn how our
+          experience can help your business survive in an ever-changing climate.
         </p>
       </div>
       <div class={HeroStyles.right}>
