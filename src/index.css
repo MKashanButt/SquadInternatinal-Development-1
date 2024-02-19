@@ -18,6 +18,7 @@ html {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   list-style: none;
+  word-break: keep-all;
 }
 
 h1 {

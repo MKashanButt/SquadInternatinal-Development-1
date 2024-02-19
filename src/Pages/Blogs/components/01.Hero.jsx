@@ -15,10 +15,9 @@ const Hero = () => {
           <span>Expert</span> Insights
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          eveniet, aliquam omnis facilis rerum perspiciatis, asperiores
-          molestiae eum dolore veritatis quaerat voluptates fugiat officiis aut
-          assumenda quas odit. Id, veritatis.
+          Dive into captivating narratives and glean expert insights on our
+          blogs page. Explore a diverse array of topics, from industry trends to
+          practical tips, curated to enrich your knowledge and inspire growth.
         </p>
       </div>
       <div className={sectionStyles.right}>
