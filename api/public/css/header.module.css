@@ -1,0 +1,118 @@
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1);
+    z-index: 110;
+    top: 0;
+    background: white;
+}
+
+.logo,
+.action {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.action button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: var(--black);
+    color: #ffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action button:nth-of-type(2) {
+    display: none;
+}
+
+.navUnderline {
+    width: 100%;
+    border: 2px solid white;
+}
+
+header nav>ul li:hover .navUnderline {
+    border: 2px solid rgba(0, 0, 0, 10);
+    animation: underlineAnimation 0.4s linear;
+}
+
+.submenu {
+    width: 150px;
+    height: auto;
+    padding: 1%;
+    top: 70%;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0;
+    position: absolute;
+    background: white;
+    display: none;
+}
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submenu ul li {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.submenu ul li:hover {
+    font-weight: bolder;
+}
+
+.submenu ul li:hover .submenu {
+    display: block;
+}
+
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .logo img {
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .logo img {
+        width: 80%;
+    }
+
+    .action button:nth-of-type(2) {
+        display: block;
+    }
+
+    .action button:nth-of-type(1) {
+        display: none;
+    }
+
+    header nav>ul {
+        gap: 30px;
+    }
+}

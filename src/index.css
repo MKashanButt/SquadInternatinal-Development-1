@@ -4,11 +4,17 @@
 
 :root {
   --grey: #D9DADF;
-  --black: #1E1E1E;
+  --black: #393939;
+  /* --black: #1E1E1E; */
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  /* background: var(--black);
+  color: white; */
 }
 
 * {
@@ -19,22 +25,27 @@ html {
   text-decoration: none;
   list-style: none;
   word-break: keep-all;
+  cursor: url('https://www.salsoft.net/assets/images/ui/cursor%40x1.png'), auto;
 }
 
 h1 {
   font-size: 50px;
   text-transform: uppercase;
+  color: var(--black);
 }
 
 h2 {
   font-size: 30px;
+  color: var(--black);
 }
 
 h3 {
+  color: var(--black);
   font-size: 20px;
 }
 
 h4 {
+  color: var(--black);
   font-size: 16px;
 }
 
@@ -51,6 +62,16 @@ main {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+b {
+  color: var(--black);
 }
 
 @media (min-width: 1008px) and (max-width: 1300px) {

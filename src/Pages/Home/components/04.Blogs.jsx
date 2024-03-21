@@ -1,6 +1,5 @@
 import React from "react";
 import blogStyles from "../../../assets/css/Home.module.css";
-import blog from "../../../assets/images/blog-one.webp";
 
 const Blogs = () => {
   return (
@@ -20,7 +19,7 @@ const Blogs = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <img src={blog} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div class={blogStyles.content}>
             <h2>Enhancing Customer Engagement</h2>
             <p>
@@ -38,7 +37,7 @@ const Blogs = () => {
           data-aos="fade-left"
           data-aos-duration="1000"
         >
-          <img src={blog} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div class={blogStyles.content}>
             <h2>Streamlining Customer Support</h2>
             <p>
@@ -57,7 +56,7 @@ const Blogs = () => {
           data-aos="fade-left"
           data-aos-duration="1000"
         >
-          <img src={blog} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div class={blogStyles.content}>
             <h2>Building Customer-Centric Operations</h2>
             <p>

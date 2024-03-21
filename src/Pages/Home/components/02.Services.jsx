@@ -1,20 +1,18 @@
 import React from "react";
 import ServiceStyle from "../../../assets/css/Home.module.css";
-import ServiceBg from "../../../assets/images/service-bg.webp";
-import ServiceFront from "../../../assets/images/service-front.webp";
 
 const Services = () => {
   return (
     <section class={ServiceStyle.services}>
       <div class={ServiceStyle.left}>
         <img
-          src={ServiceBg}
+          src='https://api.squadinternational.net/api/images/service-bg.webp?apikey=21b72d701586241ce2004e28d2276882'
           alt=""
           data-aos="fade-right"
           data-aos-duration="1000"
         />
         <img
-          src={ServiceFront}
+          src='https://api.squadinternational.net/api/images/service-front.webp?apikey=21b72d701586241ce2004e28d2276882'
           alt=""
           data-aos="fade-right"
           data-aos-duration="1000"

@@ -3,7 +3,7 @@ import sectionStyles from "../../../assets/css/About.module.css";
 
 const WhyChooseUs = () => {
   return (
-    <section className={sectionStyles.whyChooseUs}>
+    <section className={sectionStyles.whyChooseUs} id="whychooseus">
       <h1 data-aos="fade-up" data-aos-duration="1000">
         Why Choose Us?
       </h1>

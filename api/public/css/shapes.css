@@ -1,0 +1,23 @@
+.side-lines {
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 28%;
+    z-index: 90;
+}
+
+.side-lines .first,
+.side-lines .second,
+.side-lines .third {
+    width: 80%;
+    height: 60px;
+    margin: 50px 0;
+    opacity: 0.2;
+    border-radius: 0 50px 50px 0;
+    background: black;
+    animation: bgLineAnimation 1.5s linear;
+}
+
+.side-lines .second {
+    width: 100%;
+}

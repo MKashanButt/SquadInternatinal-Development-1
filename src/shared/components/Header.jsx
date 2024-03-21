@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../../assets/images/logo.webp";
 import headerStyles from "../css/header.module.css";
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
     <header>
       <div class={headerStyles.logo} data-aos="fade-up" data-aos-duration="500">
         <a href="/">
-          <img src={logo} alt="" />
+          <img src='https://api.squadinternational.net/api/images/logo.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
         </a>
       </div>
       <nav data-aos="fade-up" data-aos-duration="1000">

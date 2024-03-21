@@ -15,7 +15,7 @@
 }
 
 .hero .left span {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .hero .right {
@@ -49,6 +49,7 @@
     outline: none;
     border-radius: 25px 0 0 25px;
     border: 2px solid rgba(0, 0, 0, 0.3);
+    color: var(--black);
     border-right: 0;
     font-size: 18px;
     flex: 5;
@@ -78,7 +79,7 @@
 }
 
 .stage .item {
-    width: 28%;
+    width: 26%;
     padding: 2%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     display: flex;
@@ -87,9 +88,13 @@
     transition: all 0.5s ease;
     cursor: pointer;
     border-radius: 25px;
+    background: white;
+    color: var(--black);
+    border: 2px solid var(--black);
 }
 
 .stage .item:hover {
+    border: 2px solid white;
     color: white;
     background: var(--black);
 }

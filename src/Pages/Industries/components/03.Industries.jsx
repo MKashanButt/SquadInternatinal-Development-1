@@ -1,6 +1,5 @@
 import React from "react";
 import sectionStyles from "../../../assets/css/Industries.module.css";
-import img from "../../../assets/images/industry.webp";
 
 const Industries = () => {
   return (
@@ -15,7 +14,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Healthcare</h2>
@@ -39,7 +38,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Travel</h2>
@@ -62,7 +61,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Retail</h2>
@@ -87,7 +86,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Telecom</h2>
@@ -111,7 +110,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Financial Services</h2>
@@ -136,7 +135,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Ecommerce</h2>
@@ -160,7 +159,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Manufacturing</h2>
@@ -184,7 +183,7 @@ const Industries = () => {
       >
         <div className={sectionStyles.item}>
           <div className={sectionStyles.left}>
-            <img src={img} alt="" />
+            <img src='https://api.squadinternational.net/api/images/industry.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           </div>
           <div className={sectionStyles.right}>
             <h2>Logistics</h2>

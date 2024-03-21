@@ -1,0 +1,53 @@
+@keyframes underlineAnimation {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes bgLineAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+@keyframes serviceLineAnimation {
+    0% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes subLineAnimation {
+    0% {
+        height: 0;
+        margin-bottom: -100%;
+        opacity: 0.3;
+    }
+
+    100% {
+        height: 200px;
+        opacity: 0.3;
+        margin-bottom: 0;
+    }
+}
+
+@keyframes tabAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}

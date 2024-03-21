@@ -5,13 +5,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Header from "./shared/components/Header";
-import Home from "./Pages/Home/Index";
+import Home from "./Pages/Home Second/Index";
 import Services from "./Pages/Services/Index";
 import Industries from "./Pages/Industries/Index";
 import Blogs from "./Pages/Blogs/Index";
 import AboutUs from "./Pages/AboutUs/Index";
 import ContactUs from "./Pages/ContactUs/Index";
-import Footer from "./shared/components/Footer";
+import Footer from "./shared/components/Footer Second";
+
+import Dedicated from "./Pages/Services/Dedicated/Index";
 
 function App() {
   useEffect(() => {
@@ -25,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/dedicated" element={<Dedicated />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about-us" element={<AboutUs />} />

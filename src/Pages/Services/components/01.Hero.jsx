@@ -1,6 +1,5 @@
 import React from "react";
 import HeroStyles from "../../../assets/css/Services.module.css";
-import heroImg from "../../../assets/images/services-hero.webp";
 
 const Hero = () => {
   return (
@@ -24,7 +23,7 @@ const Hero = () => {
       </div>
       <div class={HeroStyles.right}>
         <div class={HeroStyles.circle}></div>
-        <img src={heroImg} alt="" />
+        <img src="https://api.squadinternational.net/api/images/services-hero.webp?apikey=21b72d701586241ce2004e28d2276882" alt="" />
       </div>
     </section>
   );

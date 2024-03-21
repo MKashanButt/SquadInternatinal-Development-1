@@ -1,6 +1,5 @@
 import React from "react";
 import contactStyles from "../css/contact.module.css";
-import contact from "../../assets/images/contact-img.webp";
 
 const Contact = () => {
   return (
@@ -48,7 +47,7 @@ const Contact = () => {
           </div>
           <button type="submit">Send</button>
         </form>
-        <img src={contact} alt="" />
+        <img src='https://api.squadinternational.net/api/images/contact-img.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
       </div>
     </section>
   );

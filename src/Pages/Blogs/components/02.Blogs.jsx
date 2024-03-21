@@ -1,6 +1,5 @@
 import React from "react";
 import sectionStyles from "../../../assets/css/Blog.module.css";
-import img from "../../../assets/images/blog-one.webp";
 
 const Blogs = () => {
   return (
@@ -14,7 +13,7 @@ const Blogs = () => {
       </form>
       <div className={sectionStyles.stage}>
         <div className={sectionStyles.item}>
-          <img src={img} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div className={sectionStyles.content}>
             <h3>The Evolution of BPO: Navigating the Changing Landscape</h3>
             <p>
@@ -27,7 +26,7 @@ const Blogs = () => {
           </div>
         </div>
         <div className={sectionStyles.item}>
-          <img src={img} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div className={sectionStyles.content}>
             <h3>Behind the Scenes: A Day in the Life of a BPO Professional</h3>
             <p>
@@ -40,7 +39,7 @@ const Blogs = () => {
           </div>
         </div>
         <div className={sectionStyles.item}>
-          <img src={img} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div className={sectionStyles.content}>
             <h3>
               The Rise of AI in BPO: Enhancing Efficiency and Customer
@@ -56,7 +55,7 @@ const Blogs = () => {
           </div>
         </div>
         <div className={sectionStyles.item}>
-          <img src={img} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div className={sectionStyles.content}>
             <h3>
               Outsourcing Beyond Borders: Exploring the Global Reach of BPO
@@ -71,7 +70,7 @@ const Blogs = () => {
           </div>
         </div>
         <div className={sectionStyles.item}>
-          <img src={img} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div className={sectionStyles.content}>
             <h3>
               BPO Best Practices: Strategies for Streamlining Operations and
@@ -86,7 +85,7 @@ const Blogs = () => {
           </div>
         </div>
         <div className={sectionStyles.item}>
-          <img src={img} alt="" />
+          <img src='https://api.squadinternational.net/api/images/blog-one.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
           <div className={sectionStyles.content}>
             <h3>
               Customer-Centric Solutions: How BPO Enhances the Customer

@@ -1,6 +1,5 @@
 import React from "react";
 import sectionStyles from "../../../assets/css/Blog.module.css";
-import img from "../../../assets/images/blog-hero.webp";
 
 const Hero = () => {
   return (
@@ -21,7 +20,7 @@ const Hero = () => {
         </p>
       </div>
       <div className={sectionStyles.right}>
-        <img src={img} alt="" />
+        <img src='https://api.squadinternational.net/api/images/blog-hero.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
       </div>
     </section>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import SectionStyles from "../../../assets/css/Services.module.css";
-import img from "../../../assets/images/whyChooseUs.webp";
 
 const WhyChooseUs = () => {
   return (
@@ -8,7 +7,7 @@ const WhyChooseUs = () => {
       <div class={SectionStyles.left}>
         <div class={SectionStyles.imgBorderTop}></div>
         <div class={SectionStyles.imgBorderBottom}></div>
-        <img src={img} alt="" data-aos="fade-in" data-aos-duration="2000" />
+        <img src='https://api.squadinternational.net/api/images/whyChooseUs.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" data-aos="fade-in" data-aos-duration="2000" />
       </div>
       <div class={SectionStyles.right}>
         <h3 data-aos="fade-left" data-aos-duration="1000">

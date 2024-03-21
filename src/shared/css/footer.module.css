@@ -1,7 +1,7 @@
-footer {
+/* footer {
     width: 100%;
     position: relative;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 footer .circles {
@@ -18,7 +18,7 @@ footer .circles {
 footer .circles .circle {
     width: 12%;
     height: 15px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
 }
 
@@ -78,14 +78,14 @@ footer .lowerFooter .left b {
 
 footer .lowerFooter .right i {
     font-size: 40px;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.3);
     margin: 0 15px 0 0;
     transition: color 0.2s ease;
     cursor: pointer;
 }
 
 footer .lowerFooter .right i:hover {
-    color: rgba(0, 0, 0, 1);
+    color: white;
 }
 
 .copyright {
@@ -96,6 +96,93 @@ footer .lowerFooter .right i:hover {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
     text-transform: uppercase;
+} */
+
+footer {
+    display: flex;
+    border-top: 1px solid grey;
+    padding-top: 30px;
+    position: relative;
+    background: white;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+footer li,
+footer p {
+    font-size: 13px;
+}
+
+footer li img {
+    width: 20%;
+    height: 40px;
+    margin-right: 10px;
+}
+
+footer .logo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo p {
+    width: 80%;
+    text-align: center;
+}
+
+footer .logo img {
+    width: 60%;
+}
+
+footer .about {
+    width: 30%;
+}
+
+footer .product,
+footer .heading {
+    width: 30%;
+}
+
+footer .heading {
+    padding: 0 1%;
+}
+
+footer .heading p:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 5px 0;
+}
+
+footer .product li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer .product li p {
+    width: 70%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.copyright p {
+    font-size: 13px;
 }
