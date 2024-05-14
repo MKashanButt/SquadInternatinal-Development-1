@@ -1,5 +1,5 @@
 import React from "react";
-import sectionStyles from "../../../../assets/css/Services.module.css";
+import sectionStyles from "../../../../../assets/css/sub/Telemarketing.module.css";
 
 const Industries = () => {
   return (

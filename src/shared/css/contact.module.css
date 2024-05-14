@@ -79,6 +79,7 @@
 
 @media (min-width: 641px) and (max-width: 1007px) {
     .contact .content {
+        width: 100%;
         flex-direction: column;
     }
 

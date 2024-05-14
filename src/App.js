@@ -13,7 +13,7 @@ import AboutUs from "./Pages/AboutUs/Index";
 import ContactUs from "./Pages/ContactUs/Index";
 import Footer from "./shared/components/Footer Second";
 
-import Dedicated from "./Pages/Services/Dedicated/Index";
+import Sub from "./Pages/Services/sub/Index";
 
 function App() {
   useEffect(() => {
@@ -27,7 +27,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/services/dedicated" element={<Dedicated />} />
+          <Route path="/services/telemarketing" element={<Sub page="telemarketing" />} />
+          <Route path="/services/design-and-development" element={<Sub page="design-and-development" />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about-us" element={<AboutUs />} />

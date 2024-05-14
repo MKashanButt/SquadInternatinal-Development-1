@@ -15,7 +15,6 @@
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    background: white;
     color: #393939;
     padding: 1%;
     position: relative;
@@ -23,7 +22,7 @@
 
 .hero .content h1 {
     text-transform: capitalize !important;
-    font-size: 65px;
+    font-size: 45px;
     line-height: 70px;
     font-weight: 600;
 }
@@ -53,8 +52,8 @@
 
 .experience p {
     cursor: url('https://www.salsoft.net/assets/images/ui/cursor-dark.svg'), default;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .experience span {
@@ -70,7 +69,7 @@
     background: inherit;
     color: white;
     border: 2px solid white;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 14px;
 }
 
@@ -78,7 +77,6 @@
 .collaborate,
 .careers {
     width: 100%;
-    /* height: 100vh; */
     display: flex;
     background: white;
     position: relative;
@@ -111,13 +109,13 @@
 .insights .content h2,
 .careers .content h2,
 .collaborate .content h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .insights .content p,
 .careers .content p,
 .collaborate .content p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .insights .image,
@@ -146,3 +144,33 @@
         transform: rotate(360deg);
     }
 } */
+
+@media (min-width: 1300px) and (max-width:1350px) {}
+
+@media (min-width: 1008px) and (max-width: 1300px) {}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .hero .content h1 {
+        line-height: 25px !important;
+    }
+
+    .experience p {
+        line-height: 15px;
+    }
+
+    .insights,
+    .collaborate,
+    .careers {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .industries .stage {
+        width: 100%;
+    }
+
+    .industries .item {
+        /* width: 24%; */
+    }
+}

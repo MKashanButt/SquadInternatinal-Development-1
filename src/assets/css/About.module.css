@@ -9,6 +9,7 @@
 }
 
 .hero h1 {
+    color: var(--black);
     display: flex;
     gap: 10px;
 }
@@ -98,7 +99,7 @@
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    border-top: 4px solid white;
+    border-top: 4px solid var(--grey);
 }
 
 .whyChooseUs .stage .item p {
@@ -107,6 +108,7 @@
 }
 
 .whyChooseUs .stage .item i {
+
     font-size: 40px;
 }
 

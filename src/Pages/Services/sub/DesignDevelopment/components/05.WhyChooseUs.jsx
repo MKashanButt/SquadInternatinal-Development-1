@@ -1,5 +1,5 @@
 import React from "react";
-import SectionStyles from "../../../../assets/css/Services.module.css";
+import SectionStyles from "../../../../../assets/css/sub/DesignDevelopment.module.css";
 
 const WhyChooseUs = () => {
   return (

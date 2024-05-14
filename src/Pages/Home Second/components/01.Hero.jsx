@@ -1,5 +1,4 @@
 import React from "react";
-import LogoSVG from '../../../assets/logo.svg';
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -83,12 +82,7 @@ const Hero = () => {
           value: 0.4,
         },
         shape: {
-          type: "circle",
-          image: {
-            src: LogoSVG,
-            width: 100,
-            height: 100
-          }
+          type: "circle"
         },
         size: {
           value: { min: 1, max: 5 },

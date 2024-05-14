@@ -15,7 +15,7 @@
 }
 
 .hero .left span {
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--grey);
 }
 
 .hero .right {
@@ -97,6 +97,10 @@
     border: 2px solid white;
     color: white;
     background: var(--black);
+}
+
+.stage .item:hover h3 {
+    color: white;
 }
 
 .stage .item:hover button {

@@ -162,7 +162,7 @@
     width: 15%;
     text-align: center;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
-    padding: 10px 20px;
+    padding: 0;
     border-radius: 50px;
     transition: 0.2s all ease;
     cursor: pointer;
@@ -307,6 +307,10 @@
         height: auto;
     }
 
+    .hero h1 {
+        line-height: 20px;
+    }
+
     .hero {
         padding-top: 90px;
     }
@@ -333,7 +337,19 @@
     }
 
     .industries hr:nth-of-type(2) {
-        bottom: -20%;
+        bottom: 48px;
+    }
+
+    .industries .stage {
+        width: 100%;
+    }
+
+    .industries .item {
+        width: 30%;
+    }
+
+    .industries .item i {
+        font-size: 18px;
     }
 
     .blogs {

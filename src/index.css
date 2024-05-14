@@ -5,16 +5,10 @@
 :root {
   --grey: #D9DADF;
   --black: #393939;
-  /* --black: #1E1E1E; */
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  /* background: var(--black);
-  color: white; */
 }
 
 * {
@@ -25,11 +19,10 @@ body {
   text-decoration: none;
   list-style: none;
   word-break: keep-all;
-  cursor: url('https://www.salsoft.net/assets/images/ui/cursor%40x1.png'), auto;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   color: var(--black);
 }
@@ -104,21 +97,21 @@ b {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 
   h4 {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   p,
   li,
   button {
-    font-size: 12px;
+    font-size: 10px !important;
   }
 
   .display-none {

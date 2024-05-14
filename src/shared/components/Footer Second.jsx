@@ -7,6 +7,10 @@ const Footer = () => {
     <>
       <Contact />
       <footer>
+        <div className={footerStyles.responsiveLogo}>
+          <img src="https://api.squadinternational.net/api/images/logo.webp?apikey=21b72d701586241ce2004e28d2276882" alt="" />
+          <p>Copyright © Squad International Pvt Ltd. All Rights Reserved</p>
+        </div>
         <div className={footerStyles.heading}>
           <h4>About Us</h4>
           <div>
@@ -25,6 +29,20 @@ const Footer = () => {
           <h4>Gallery</h4>
           <h4>Careers</h4>
           <h4>Contact Us</h4>
+          <p>
+            <a href="https://www.linkedin.com/company/squadinternational" target="__blank">
+              <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a href="https://www.facebook.com/Squadinternational.net" target="__blank">
+              <i class='bx bxl-facebook-square'></i>
+            </a>
+            <a href="https://wa.me/+923132972974" target="__blank">
+              <i class='bx bxl-whatsapp-square'></i>
+            </a>
+            <a href="https://www.instagram.com/squad_international/" target="__blank">
+              <i class='bx bxl-instagram' ></i>
+            </a>
+          </p>
         </div>
         <div className={footerStyles.about}>
           <h4>Contact Us</h4>
@@ -60,7 +78,7 @@ const Footer = () => {
           <img src="https://api.squadinternational.net/api/images/logo.webp?apikey=21b72d701586241ce2004e28d2276882" alt="" />
           <p>Copyright © Squad International Pvt Ltd. All Rights Reserved</p>
         </div>
-      </footer>
+      </footer >
     </>
   );
 };

@@ -31,7 +31,7 @@ const Gallery = () => {
     };
 
     return (
-        <section className={styles.gallery}>
+        <section className={styles.gallery} id='gallery'>
             <h1>Gallery</h1>
             <div className={styles.stage}>
                 <ImageLoop currentPage={currentPage} imagesPerPage={imagesPerPage} />

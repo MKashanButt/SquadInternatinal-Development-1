@@ -1,0 +1,179 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+    justify-content: center;
+    padding: 2%;
+}
+
+.hero .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.services {
+    position: relative;
+}
+
+.services .left {
+    width: calc(40% - 50px);
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.services .left img {
+    width: 90%;
+    z-index: 100;
+}
+
+.services .left img:nth-child(2) {
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    top: 60%;
+}
+
+.services .right {
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.services .right h1 {
+    line-height: 50px;
+    margin-left: -5px;
+}
+
+.services .right ul li {
+    margin: 10px 0;
+    list-style: circle !important;
+    margin-left: 50px;
+}
+
+.industries {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.industries hr {
+    width: 50%;
+    margin: 50px 0;
+    border-radius: 0 25px 25px 0;
+    border: 5px solid var(--black);
+}
+
+.industries hr:nth-of-type(1) {
+    margin-top: -100px;
+}
+
+.industries hr:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 25px 0 0 25px;
+}
+
+.industries .stage {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.industries .stage .item {
+    width: 15%;
+    text-align: center;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s all ease;
+    cursor: pointer;
+    background-color: var(--grey);
+    color: var(--black);
+    border: 2px solid var(--black);
+}
+
+.industries .stage .item:hover {
+    background: var(--black);
+    color: white;
+    border: 2px solid white;
+}
+
+.industries .stage .item i {
+    font-size: 22px;
+}
+
+.whyChooseUs {
+    height: 100vh;
+    display: flex;
+}
+
+.whyChooseUs h1 {
+    line-height: 45px;
+}
+
+.whyChooseUs .right,
+.whyChooseUs .left {
+    width: 48%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.whyChooseUs .left .imgBorderTop {
+    width: 200px;
+    height: 200px;
+    border-top: 10px solid var(--grey);
+    border-right: 10px solid var(--grey);
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.whyChooseUs .left .imgBorderBottom {
+    width: 200px;
+    height: 200px;
+    border-top: 10px solid var(--grey);
+    border-right: 10px solid var(--grey);
+    position: absolute;
+    bottom: 6%;
+    left: 20%;
+    transform: rotate(180deg);
+}
+
+.whyChooseUs .right {
+    padding-right: 100px;
+}

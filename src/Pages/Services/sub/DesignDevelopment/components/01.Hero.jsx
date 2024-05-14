@@ -1,5 +1,5 @@
 import React from "react";
-import HeroStyles from "../../../../assets/css/Services.module.css";
+import HeroStyles from "../../../../../assets/css/sub/DesignDevelopment.module.css";
 
 const Hero = () => {
   return (
@@ -9,9 +9,9 @@ const Hero = () => {
       data-aos-duration="1000"
     >
       <div class={HeroStyles.left}>
-        <h4>Innovative Solutions for a</h4>
+        <h4>Innovative</h4>
         <h1>
-          <span>Dynamic</span> World
+          <span>Design And Development</span> Services
         </h1>
         <p>
           Explore our cutting-edge services, designed to satisfy the needs of a
