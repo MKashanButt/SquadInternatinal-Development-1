@@ -23,7 +23,10 @@ const Hero = () => {
       </div>
       <div class={HeroStyles.right}>
         <div class={HeroStyles.circle}></div>
-        <img src='https://api.squadinternational.net/api/images/services-hero.webp?apikey=21b72d701586241ce2004e28d2276882' alt="" />
+        <img
+          src="https://api.squadinternational.net/api/images/services-hero.webp?apikey=21b72d701586241ce2004e28d2276882"
+          alt=""
+        />
       </div>
     </section>
   );
